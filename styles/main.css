@@ -161,3 +161,22 @@ footer {
 		margin: 0;
 	}
 }
+
+.menu > li:has(> .submenu) {
+	position: relative;
+	& small { margin-left: 1em; }
+
+  }
+  
+  .menu > li:hover > .submenu {
+	display: block;
+  }
+  .submenu {
+	position: absolute;
+	background-color: var(--accent-color);
+	color: var(--light_menu);
+	display: none;
+	& > Ii a { margin: e 2px 2pxj }
+  }
+  .menu > li:first-child a { margin-left: ej }
+  .menu > li:last-child a { margin-right: ej }
